@@ -1,11 +1,12 @@
 # Third_Portfolio
+
 - The URL of the functional, deployed, mobile responsive application:
-- https://gentle-hollows-22810.herokuapp.com/
+- 
 
 ## Table of Contents
 
 - [Descripttion](#descripttion)
-- [Installation](#installation)
+- [installation](#installation)
 - [Mock-Up](#mock-up)
 - [Questions](#questions)
 
@@ -13,82 +14,67 @@
 
 ## Descripttion
 
-Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies.
+Being a web developer means being part of a community. Creating a portfolio using React skills is cool.
 
-This CMS-style blog site is where developers can publish their blog posts and comment on other developers’ posts as well. This app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+When employers looking for candidates with experience building single-page applications, They WANT to view a potential employee's deployed React portfolio of work samples, SO THAT they can assess whether they're a good candidate for an open position
 
-The developers who writes about tech
-the developers WANT a CMS-style blog site
-SO THAT the developers can publish articles, blog posts, and their thoughts and opinions
+GiVEN a single-page application portfolio for a web developer
+WHEN they load the portfolio
+THEN they are presented with a page containing a header, a section for content, and a footer
 
-GIVEN a CMS-style blog site
-WHEN the developers visit the site for the first time
-THEN the developers are presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
+WHEN they view the header
+THEN they are presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
-WHEN the developers click on the homepage option
-THEN the developers are taken to the homepage
+WHEN they view the navigation titles
+THEN they are presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 
-WHEN the developers click on any other links in the navigation
-THEN the developers are prompted to either sign up or sign in
+WHEN they click on a navigation title
+THEN they are presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
-WHEN the developers choose to sign up
-THEN the developers are prompted to create a username and password
+WHEN they load the portfolio the first time
+THEN the About Me title and section are selected by default
 
-WHEN the developers click on the sign-up button
-THEN their user credentials are saved and the developers are logged into the site
+WHEN they are presented with the About Me section
+THEN they see a recent photo or avatar of the developer and a short bio about them
 
-WHEN the developers revisit the site at a later time and choose to sign in
-THEN the developers are prompted to enter their usernames and passwords
+WHEN they are presented with the Portfolio section
+THEN they see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
 
-WHEN the developers are signed in to the site
-THEN the developers see navigation links for the homepage, the dashboard, and the option to log out
+WHEN they are presented with the Contact section
+THEN they see a contact form with fields for a name, an email address, and a message
 
-WHEN the developers click on the homepage option in the navigation
-THEN the developers are taken to the homepage and presented with existing blog posts that include the post title and the date created
+WHEN they move my cursor out of one of the form fields without entering text
+THEN they receive a notification that this field is required
 
-WHEN the developers click on an existing blog post
-THEN the developers are presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
+WHEN they enter text into the email address field
+THEN they receive a notification if they have entered an invalid email address
 
-WHEN the developers enter a comment and click on the submit button while signed in
-THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
+WHEN they are presented with the Resume section
+THEN they see a link to a downloadable resume and a list of the developer’s proficiencies
 
-WHEN the developers click on the dashboard option in the navigation
-THEN the developers are taken to the dashboard and presented with any blog posts the developers have already created and the option to add a new blog post
+WHEN they view the footer
+THEN they are presented with text or icon links to the developer’s GitHub and Linkedin profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-WHEN the developers click on the button to add a new blog post
-THEN the developers are prompted to enter both a title and contents for their blog posts
+## Mock-Up
 
-WHEN the developers click on the button to create a new blog post
-THEN the titles and contents of their posts are saved and the developers are taken back to an updated dashboard with their new blog posts
+The following animation shows the web application's appearance and functionality:
 
-WHEN the developers click on one of their existing posts in the dashboard
-THEN the developers are able to delete or update their posts and taken back to an updated dashboard
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/.gif)
 
-WHEN the developers click on the logout option in the navigation
-THEN the developers are signed out of the site
-
-WHEN the developers are idle on the site for more than a set time
-THEN the developers are able to view comments but the developers are prompted to log in again before I can add, update, or delete comments
 
 ---
 
-## Installation
+## installation
 
-This application’s folder structure follow the Model-View-Controller paradigm.
+Use `create-react-app` to build the portfolio, which will include the following:
 
-Use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for Views
+- A single `Header` component that appears on multiple pages
 
-Use the [MySQL2](https://www.npmjs.com/package/mysql2)
+- A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
 
-Use the [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for Controllers.
+- A single `Project` component that will be used multiple times in the Portfolio section
 
-Use the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables
-
-Use the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords
-
-Use the [express-session](https://www.npmjs.com/package/express-session) and the [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
-
-Use the [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie.
+- A single `Footer` component that appears on multiple pages
 
 ---
 
@@ -96,11 +82,7 @@ Use the [express-session](https://www.npmjs.com/package/express-session) package
 
 The following images show the web application's appearance and functionality:
 ![Homepage.](./Assets/home.png)<br>
-![signing into the app](./Assets/login.png)<br>
-![sign up.](./Assets/signup.png)<br>
-![blog posts.](./Assets/blog.png)<br>
-![comments.](./Assets/comment.png)<br>
-![After comments.](./Assets/aftercomment.png)<br>
+
 
 ---
 
