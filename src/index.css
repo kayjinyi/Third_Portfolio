@@ -1,13 +1,96 @@
+:root {
+  --colorbor: aqua;
+  --colormain: #13293d;
+  --colorbody: #306597;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0;
+  /* background-color: yellowgreen !important; */
+  font-size: 200% !important;
+  color: var(--colormain);
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+  align-items: center;
+  padding: 1%;
+  background-color: var(--colormain) !important;
+  color: #fff;
+  height: 25vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#mainPart {
+  display: flex;
+  padding: 20px !important;
+  /* color: #fff; */
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 1%;
+  color: var(--colorbody);
+  /* height: 5vh */
+}
+
+footer h1 {
+  font-size: 200%;
+  border: 0 50px 0 0;
+  width: 20%;
+  border-right: 50px darkcyan;
+  overflow-wrap: break-word;
+  align-self: flex-end;
+  border-right: 5px solid var(--colorbody);
+  flex: 0 0 20%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  list-style: none;
+  border-bottom: 10px var(--colorbody);
+  width: 80%;
+  font-weight: bold;
+  align-self: flex-end;
+}
+@media screen and (max-width: 992px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .card-text {
+    font-size: small;
+    width: 70%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .card-text {
+    font-size: xx-small;
+    width: 90%;
+  }
+  /* #cardtwo, #cardthree, #cardfour, #cardfive {
+      width:100%;
+      margin: 5px 0;
+      /* flex-grow: 1 0 50px; */
+  /* } */
+  */ footer {
+    width: 100%;
+  }
 }
