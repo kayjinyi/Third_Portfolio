@@ -1,9 +1,14 @@
 import React from "react";
+import myPic from "./avatar.png";
 
 export default function AboutMe() {
   return (
     <div>
+      <br></br>
       <h1>About me</h1>
+      <br></br>
+      <img src={myPic} alt="my own pic" />
+      <br></br>
       <p>
         I love helping others and solving problems. That was also one of the
         reasons for me to be a financial advisor, assisting others to resolve

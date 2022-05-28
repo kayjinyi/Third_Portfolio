@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Contact() {
+export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
       <p>
         Download my{" "}
         <a
-          href="../../../public/Yi Jin Resume.pdf"
+          href="https://drive.google.com/file/d/1K-9BInIZR4LEc49U06bwqPn8VISy-4Gb/view?usp=sharing"
           alt="resume"
           target="_blank"
         >

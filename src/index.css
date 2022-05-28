@@ -16,7 +16,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 0 !important;
+  padding: 50 !important;
   align-items: center;
   padding: 1%;
   background-color: var(--colormain) !important;
@@ -26,71 +26,101 @@ header {
 
 #mainPart {
   display: flex;
-  padding: 20px !important;
-  /* color: #fff; */
+  padding: 50px !important;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 5px !important;
+}
+
+nav li {
+  justify-content: space-around;
+  margin: 100px !important;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footerEl {
+  display: flex;
+  justify-content: center;
 }
 footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
   padding: 1%;
   color: var(--colorbody);
   /* height: 5vh */
 }
 
-footer h1 {
-  font-size: 200%;
-  border: 0 50px 0 0;
-  width: 20%;
-  border-right: 50px darkcyan;
-  overflow-wrap: break-word;
-  align-self: flex-end;
-  border-right: 5px solid var(--colorbody);
-  flex: 0 0 20%;
-}
-
 footer ul {
   display: flex;
-  justify-content: space-between;
-  min-width: 200px;
+  justify-content: space-around;
   list-style: none;
   border-bottom: 10px var(--colorbody);
-  width: 80%;
+  width: 40%;
   font-weight: bold;
   align-self: flex-end;
 }
+footer li {
+  justify-content: space-around;
+  margin: 30px !important;
+}
+/* footer a {
+  font-weight: bold;
+  text-decoration: none;
+} */
 @media screen and (max-width: 992px) {
-  header {
-    width: 100%;
-  }
-  main {
-    width: 100%;
-  }
   .card-text {
     font-size: small;
-    width: 70%;
   }
   footer {
     width: 100%;
   }
 }
-@media screen and (max-width: 768px) {
-  header {
-    width: 100%;
-  }
-  main {
-    width: 100%;
-  }
+@media screen and (max-width: 425px) {
   .card-text {
     font-size: xx-small;
     width: 90%;
   }
-  /* #cardtwo, #cardthree, #cardfour, #cardfive {
-      width:100%;
-      margin: 5px 0;
-      /* flex-grow: 1 0 50px; */
-  /* } */
+
   */ footer {
     width: 100%;
   }
+}
+.special:hover {
+  opacity: 50%;
+  display: flex;
+  border: 5px solid var(--colorbor);
+  width: 40%;
+  padding: 0 20px;
+  margin: 5px 0;
+  height: 35vh !important;
+  flex-direction: column;
+}
+#cardsix {
+  /* flex: 4 0 100px; */
+  background-image: url(../public/Fotofoto.png);
+}
+#cardone {
+  /* flex: 4 0 100px; */
+  background-image: url(../public/firstproject.png);
+}
+#cardtwo {
+  background-image: url(../public/projecttwo.png);
+  margin: 5px 0;
+}
+#cardthree {
+  background-image: url(../public/projectthree.png);
+  margin: 5px 0;
+}
+#cardfour {
+  background-image: url(../public/projectfour.png);
+  margin: 5px 0;
+}
+#cardfive {
+  background-image: url(../public/projectfive.png);
+  margin: 5px 0;
 }
