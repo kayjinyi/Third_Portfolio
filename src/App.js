@@ -1,4 +1,4 @@
-import "./App.css";
+
 import React from "react";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
