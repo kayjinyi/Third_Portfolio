@@ -21,6 +21,7 @@ function Project({ project }) {
           <img src={github} alt="github" />
         </a>
       </div>
+      <br></br>
     </div>
   );
 }
