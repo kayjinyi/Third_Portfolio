@@ -68,13 +68,15 @@ function Contact() {
           placeholder="email"
         />
 
-        <input
+        <textarea
+          rows="6"
+          cols="50"
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
-        />
+        ></textarea>
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>

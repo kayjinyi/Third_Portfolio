@@ -6,13 +6,16 @@
 body {
   margin: 0;
   border: 0;
-  /* background-color: yellowgreen !important; */
+  background-color: skyblue !important;
+
   font-size: 200% !important;
   color: var(--colormain);
 }
 * {
   box-sizing: border-box;
+  font-family: "Courgette" !important;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -27,6 +30,7 @@ header {
 #mainPart {
   display: flex;
   padding: 50px !important;
+  /* margin: 100px; */
 }
 nav ul {
   display: flex;
@@ -44,7 +48,17 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
-
+form {
+  width: 60%;
+}
+textarea {
+  width: 100%;
+  height: 40%;
+}
+input {
+  width: 60%;
+  height: 10%;
+}
 #footerEl {
   display: flex;
   justify-content: center;
@@ -68,29 +82,30 @@ footer li {
   justify-content: space-around;
   margin: 30px !important;
 }
-/* footer a {
-  font-weight: bold;
-  text-decoration: none;
-} */
-@media screen and (max-width: 992px) {
-  .card-text {
-    font-size: small;
-  }
-  footer {
-    width: 100%;
-  }
+.special {
+  position: relative;
+  width: 100%;
 }
-@media screen and (max-width: 425px) {
-  .card-text {
-    font-size: xx-small;
-    width: 90%;
-  }
-
-  */ footer {
-    width: 100%;
-  }
+.special-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.special:hover {
+.special-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.special-text:hover {
+  opacity: 1;
+  background-color: aqua;
+}
+/* .special:hover {
   opacity: 50%;
   display: flex;
   border: 5px solid var(--colorbor);
@@ -98,14 +113,14 @@ footer li {
   padding: 0 20px;
   margin: 5px 0;
   height: 35vh !important;
-  flex-direction: column;
-}
-#cardsix {
-  /* flex: 4 0 100px; */
+
+} */
+/* #cardsix {
+
   background-image: url(../public/Fotofoto.png);
 }
 #cardone {
-  /* flex: 4 0 100px; */
+
   background-image: url(../public/firstproject.png);
 }
 #cardtwo {
@@ -123,4 +138,23 @@ footer li {
 #cardfive {
   background-image: url(../public/projectfive.png);
   margin: 5px 0;
+} */
+
+@media screen and (max-width: 992px) {
+  .card-text {
+    font-size: small;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .card-text {
+    font-size: xx-small;
+    width: 90%;
+  }
+
+  */ footer {
+    width: 100%;
+  }
 }

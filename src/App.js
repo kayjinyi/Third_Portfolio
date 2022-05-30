@@ -1,4 +1,3 @@
-
 import React from "react";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
@@ -12,15 +11,16 @@ const App = () => {
   return (
     <BrowserRouter>
       <NavTabs />
-      <Routes>
-        <Route path="/" element={<AboutMe />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
+      <div id="mainPart">
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </div>
       <Footer />
     </BrowserRouter>
-    // (<Footer />)
   );
 };
 export default App;
