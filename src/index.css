@@ -49,7 +49,7 @@ nav a {
   text-decoration: none;
 }
 form {
-  width: 60%;
+  width: 80%;
 }
 textarea {
   width: 100%;
@@ -114,30 +114,6 @@ footer li {
   margin: 5px 0;
   height: 35vh !important;
 
-} */
-/* #cardsix {
-
-  background-image: url(../public/Fotofoto.png);
-}
-#cardone {
-
-  background-image: url(../public/firstproject.png);
-}
-#cardtwo {
-  background-image: url(../public/projecttwo.png);
-  margin: 5px 0;
-}
-#cardthree {
-  background-image: url(../public/projectthree.png);
-  margin: 5px 0;
-}
-#cardfour {
-  background-image: url(../public/projectfour.png);
-  margin: 5px 0;
-}
-#cardfive {
-  background-image: url(../public/projectfive.png);
-  margin: 5px 0;
 } */
 
 @media screen and (max-width: 992px) {
