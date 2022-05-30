@@ -2,7 +2,7 @@ import React from "react";
 import github from "../assets/github.png";
 function Project({ project }) {
   return (
-    <div className="card">
+    <div className="card special col-6 col-sm-12">
       <br></br>
       <img className="special-image" src={project.image}></img>
 

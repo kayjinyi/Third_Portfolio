@@ -47,9 +47,9 @@ export default function Portfolio() {
     },
   ];
   return (
-    <div>
+    <div className="container">
       <h1>Portfolio</h1>
-      <div id="work">
+      <div id="work" className="row">
         {myProjects.map((project) => (
           <Project project={project}></Project>
         ))}
