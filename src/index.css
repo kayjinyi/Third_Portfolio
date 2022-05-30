@@ -26,12 +26,6 @@ header {
   color: #fff;
   height: 25vh;
 }
-
-#mainPart {
-  display: flex;
-  padding: 50px !important;
-  /* margin: 100px; */
-}
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -47,6 +41,12 @@ nav a {
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
+
+#mainPart {
+  display: flex;
+  padding: 50px !important;
+  /* margin: 100px; */
 }
 form {
   width: 80%;
@@ -84,7 +84,7 @@ footer li {
 }
 .special {
   position: relative;
-  width: 100%;
+  width: 40% !important;
 }
 .special-image {
   position: relative;
@@ -117,17 +117,44 @@ footer li {
 } */
 
 @media screen and (max-width: 992px) {
-  .card-text {
-    font-size: small;
+  #root {
+    width: 100%;
   }
   footer {
     width: 100%;
   }
+  header {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #root {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 425px) {
-  .card-text {
-    font-size: xx-small;
+  /* .card-text {
     width: 90%;
+  } */
+  #root {
+    width: 100%;
+  }
+  .special {
+    width: 90%;
+  }
+  header {
+    padding: 5 !important;
+  }
+  nav li {
+    justify-content: space-around;
+    margin: 5px !important;
+    font-size: xx-small;
   }
 
   */ footer {

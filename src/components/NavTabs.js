@@ -7,20 +7,20 @@ function NavTabs() {
       <header>
         <h1>YI JIN</h1>
         <nav>
-          <ul className="nav nav-tabs">
-            <li className="nav-item">
+          <ul>
+            <li>
               <Link to="/">About Me</Link>
             </li>
 
-            <li className="nav-item">
+            <li>
               <Link to="/portfolio">Portfolio</Link>
             </li>
 
-            <li className="nav-item">
+            <li>
               <Link to="/contact">Contact</Link>
             </li>
 
-            <li className="nav-item">
+            <li>
               <Link to="/resume">Resume</Link>
             </li>
           </ul>
