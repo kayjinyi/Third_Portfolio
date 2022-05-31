@@ -59,7 +59,11 @@ THEN they are presented with text or icon links to the developer’s GitHub and 
 
 The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./public/1.png)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./public/2.png)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./public/3.png)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./public/4.png)
+![Mobile responsive](./public/5.png)
 
 ---
 
@@ -80,7 +84,8 @@ Use `create-react-app` to build the portfolio, which will include the following:
 ## Mock-Up
 
 The following images show the web application's appearance and functionality:
-![Homepage.](./Assets/home.png)<br>
+
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
 
 ---
 
