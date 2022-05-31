@@ -1,7 +1,7 @@
 # Portfolio
 
 - The URL of the functional, deployed, mobile responsive application:
-- 
+- https://portfolio-jy-2022.herokuapp.com/
 
 ## Table of Contents
 
@@ -61,7 +61,6 @@ The following animation shows the web application's appearance and functionality
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/.gif)
 
-
 ---
 
 ## installation
@@ -82,7 +81,6 @@ Use `create-react-app` to build the portfolio, which will include the following:
 
 The following images show the web application's appearance and functionality:
 ![Homepage.](./Assets/home.png)<br>
-
 
 ---
 
