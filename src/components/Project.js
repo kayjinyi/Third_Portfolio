@@ -4,8 +4,9 @@ function Project({ project }) {
   return (
     <div className="card special col-6 col-sm-12">
       <br></br>
-      <img className="special-image" src={project.image}></img>
-
+      <div>
+        <img className="special-image" src={project.image}></img>
+      </div>
       <div className="special-text">
         <a href={project.liveSites} target="_blank">
           <div className="card-text">

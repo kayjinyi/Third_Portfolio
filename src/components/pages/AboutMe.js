@@ -7,7 +7,7 @@ export default function AboutMe() {
       <br></br>
       <h1>About me</h1>
       <br></br>
-      <img src={myPic} alt="my own pic" />
+      <img id="myPic" src={myPic} alt="my own pic" />
       <br></br>
       <p>
         I love helping others and solving problems. That was also one of the

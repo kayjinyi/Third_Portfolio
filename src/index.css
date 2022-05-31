@@ -5,10 +5,9 @@
 }
 body {
   margin: 0;
-  display: block;
   border: 0;
+  display: block;
   background-color: skyblue !important;
-
   font-size: 200% !important;
   color: var(--colormain);
 }
@@ -16,17 +15,21 @@ body {
   box-sizing: border-box;
   font-family: "Courgette" !important;
 }
-
+#miPic {
+  border-radius: 50% !important;
+}
 header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 50 !important;
   align-items: center;
   padding: 1%;
   background-color: var(--colormain) !important;
   color: #fff;
-  height: 25vh;
+  /* height: 25vh; */
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -45,7 +48,7 @@ nav a {
 }
 
 #mainPart {
-  display: flex;
+  /* display: flex; */
   padding: 50px !important;
   /* margin: 100px; */
 }
@@ -129,7 +132,7 @@ footer li {
 
 } */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   #root {
     width: 100%;
   }
@@ -139,8 +142,8 @@ footer li {
   header {
     width: 100%;
   }
-}
-@media screen and (max-width: 768px) {
+} */
+/* @media screen and (max-width: 768px) {
   #root {
     width: 100%;
   }
@@ -150,14 +153,14 @@ footer li {
   header {
     width: 100%;
   }
-}
+} */
 @media screen and (max-width: 425px) {
-  #root {
+  /* #root {
     width: 100%;
   }
   .special {
-    width: 90%;
-  }
+    width: 100%;
+  } */
   header {
     padding: 5 !important;
     font-size: small;
@@ -168,8 +171,8 @@ footer li {
     margin: 5px !important;
     font-size: medium;
   }
-
-  */ footer {
+  /* 
+  footer {
     width: 100%;
-  }
+  } */
 }
