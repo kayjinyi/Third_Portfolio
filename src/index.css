@@ -147,17 +147,18 @@ footer li {
     width: 100%;
   }
 } */
-/* @media screen and (max-width: 768px) {
-  #root {
-    width: 100%;
-  }
-  footer {
-    width: 100%;
-  }
+@media screen and (max-width: 992px) {
   header {
-    width: 100%;
+    padding: 5 !important;
+    font-size: small;
+    justify-content: center flex-start;
   }
-} */
+  nav li {
+    /* justify-content: flex-start; */
+    margin: 5px !important;
+    font-size: medium;
+  }
+}
 @media screen and (max-width: 425px) {
   /* #root {
     width: 100%;
