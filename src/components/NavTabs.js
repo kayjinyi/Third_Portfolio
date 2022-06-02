@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
-    <header className="container-fluid">
+    <header className="container-fluid col-12">
       <h1>YI JIN</h1>
       <nav>
         <ul>

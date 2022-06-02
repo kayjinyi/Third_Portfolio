@@ -2,6 +2,7 @@
   --colorbor: aqua;
   --colormain: #13293d;
   --colorbody: #306597;
+  margin: 0 auto;
 }
 body {
   margin: 0;
@@ -15,7 +16,7 @@ body {
   box-sizing: border-box;
   font-family: "Courgette" !important;
 }
-#miPic {
+#myPic {
   border-radius: 50% !important;
 }
 header {
@@ -87,7 +88,8 @@ footer li {
   margin: 30px !important;
 }
 #work {
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card {
   margin: 50px;
@@ -170,6 +172,13 @@ footer li {
     justify-content: space-around;
     margin: 5px !important;
     font-size: medium;
+  }
+  .card {
+    margin: 5px !important;
+  }
+  .special {
+    position: relative;
+    width: 100%;
   }
   /* 
   footer {
