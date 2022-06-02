@@ -15,6 +15,7 @@ body {
 * {
   box-sizing: border-box;
   font-family: "Courgette" !important;
+  overflow: hidden;
 }
 #myPic {
   border-radius: 50% !important;
@@ -22,12 +23,13 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 50 !important;
+  flex-wrap: wrap !important;
+  /* padding: 50 !important; */
   align-items: center;
   padding: 1%;
   background-color: var(--colormain) !important;
   color: #fff;
+  overflow: hidden;
   /* height: 25vh; */
 }
 
