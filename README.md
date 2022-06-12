@@ -1,7 +1,7 @@
 # Portfolio
 
 - The URL of the functional, deployed, mobile responsive application:
-- https://portfolio-jy-2022.herokuapp.com/
+- http://jinyi.dev
 
 ## Table of Contents
 
